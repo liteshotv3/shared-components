@@ -1,0 +1,28 @@
+{
+  "name": "shared-components",
+  "version": "1.0.0",
+  "description": "Test for exporting shared React components to other projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d build",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liteshotv3/shared-components.git"
+  },
+  "author": "Artem Tolstov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liteshotv3/shared-components/issues"
+  },
+  "homepage": "https://github.com/liteshotv3/shared-components#readme",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3"
+  }
+}
